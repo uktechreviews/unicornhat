@@ -25,7 +25,7 @@ while True:
 	
 	for y in range(8):
 		for x in range (8):
-			UH.set_pixel(x,y,255,255,255)
+			UH.set_pixel(x,y,0,0,0)
 	for y in range(3):
 		for x in range (4):
 			UH.set_pixel(x+2,y+2,r,g,b)
@@ -52,5 +52,5 @@ while True:
 	difference = florida - today
 	date_difference = (difference).days
 	display_text = str(date_difference) + 'days'
-	colour = 'blue'
+	colour = 'green'
 	unicorn_scroll(display_text,colour,255,0.15)
