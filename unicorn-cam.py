@@ -58,7 +58,7 @@ while framecount < frames:
 		camera.start_preview()
 		localtime = time.asctime( time.localtime(time.time()) )
 		camera.annotate_text=localtime
-		UH.brightness(0.4)
+		UH.brightness(0.3)
 		if flash ==1:
 			for y in range(8):
                 		for x in range (8):
