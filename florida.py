@@ -39,7 +39,7 @@ while True:
 
 #First message
 
-	text = 'Florida 15' #String to be displayed on the first round of text
+	text = 'Days until Disney' #String to be displayed on the first round of text
 	colour = 'red' #String to set the colour of the text
 	speed = 0.15
 	unicorn_scroll(text,colour,255,speed)
@@ -51,6 +51,6 @@ while True:
 	florida = datetime.date(2015,8,1)
 	difference = florida - today
 	date_difference = (difference).days
-	display_text = str(date_difference) + 'days'
+	display_text = str(date_difference)
 	colour = 'green'
 	unicorn_scroll(display_text,colour,255,0.15)
